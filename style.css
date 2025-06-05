@@ -203,6 +203,44 @@ body {
     position: relative;
 }
 
+.item-checkbox {
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--border-primary);
+    border-radius: 6px;
+
+    
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item-checkbox::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+
+.item-checkbox:checked {
+    background-color: var(--color-brand); 
+    border-color: var(--color-brand);
+}
+
+.item-checkbox:checked::after {
+    background-color: white;
+    background-image: url("/Assets/state=selected.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 .alert-footer {
     background-color: var(--color-danger);
