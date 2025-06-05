@@ -34,11 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const itemCheckbox = itemDiv.querySelector('.item-checkbox');
             itemCheckbox.addEventListener('change', (event) => {
-                if (event.target.checked) {
-                    itemDiv.querySelector('.item-text').style.textDecoration = 'line-through';
-                } else {
-                    itemDiv.querySelector('.item-text').style.textDecoration = 'none';
-                }
+               
             });
 
             const removeButtonImg = itemDiv.querySelector('.remove-btn-img');
@@ -53,7 +49,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Event listeners
     addItemBtn.addEventListener('click', addItem);
 
     itemInput.addEventListener('keypress', (event) => {
