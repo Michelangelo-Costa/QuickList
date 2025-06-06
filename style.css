@@ -240,7 +240,7 @@ body {
 
 .item-checkbox:checked::after {
     background-color: white;
-    background-image: url("/Assets/state=selected.png");
+    background-image: url("./Assets/state=selected.png");
     background-repeat: no-repeat;
     background-position: center;
 }
