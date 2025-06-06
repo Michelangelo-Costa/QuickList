@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(() => {
             alertFooter.classList.add('hidden');
-        }, 3000);
+        }, 5000);
     }
 
     function addItem() {
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span class="item-text">${itemName}</span>
                 </div>
                 <div class="right">
-                    <img src="Assets/icon delete.png" alt="Remover" class="remove-btn-img">
+                    <img src="Assets/lixeira.png" alt="Remover" class="remove-btn-img">
                 </div>
             `;
 
