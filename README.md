@@ -14,11 +14,11 @@ A aplicação permite ao usuário gerenciar itens de uma lista de compras de for
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias e conceitos:
 
-** *HTML5:** Estrutura semântica da página.
+ *HTML5:** Estrutura semântica da página.
 
-** *CSS3:** Estilização e responsividade da interface.
+ *CSS3:** Estilização e responsividade da interface.
 
-** *JavaScript:** Lógica de manipulação da DOM, adição e remoção de itens, e tratamento de eventos. 
+ *JavaScript:** Lógica de manipulação da DOM, adição e remoção de itens, e tratamento de eventos. 
     * Manipulação da DOM 
     * Funções 
     * Eventos 
