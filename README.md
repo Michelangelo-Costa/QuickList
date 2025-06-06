@@ -14,17 +14,17 @@ A aplicação permite ao usuário gerenciar itens de uma lista de compras de for
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias e conceitos:
 
-**HTML5:** Estrutura semântica da página.
-**CSS3:** Estilização e responsividade da interface.
+***HTML5:** Estrutura semântica da página.
+***CSS3:** Estilização e responsividade da interface.
 **JavaScript:** Lógica de manipulação da DOM, adição e remoção de itens, e tratamento de eventos. 
-    * [cite_start]Manipulação da DOM 
-    * [cite_start]Funções 
-    * [cite_start]Eventos 
+    * Manipulação da DOM 
+    * Funções 
+    * Eventos 
 * **Google Fonts:** Para a fonte "Inter".
 
 ## 🎨 Layout
 
-[cite_start]O design do projeto foi baseado no modelo fornecido via Figma. 
+O design do projeto foi baseado no modelo fornecido via Figma. 
 
 ## 👨‍💻 Autor
 
