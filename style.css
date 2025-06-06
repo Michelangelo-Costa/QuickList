@@ -114,6 +114,10 @@ body {
     max-width: 600px;
 }
 
+
+
+/* Estilização dos itens */
+
 .add {
     justify-content: space-between;
     width: 100%;
@@ -252,11 +256,11 @@ body {
     gap: 16px;
     width: 100%;
     max-width: 600px;
-    position: fixed;
-    bottom: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
+    /* position: fixed; */
+    /* bottom: 100px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    /* z-index: 1000; */
     transition: opacity var(--transition-speed), transform var(--transition-speed);
 }
 
@@ -286,4 +290,29 @@ body {
 
 .close-alert-btn:hover {
     opacity: 0.7;
+}
+
+
+/* Responsividade */
+@media (max-width: 550px) {
+    .header {
+        display: none;
+    }
+    
+    .content{
+        margin: 78px;
+    }
+
+    .add {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #input {
+        width: 100%;
+    }
+
+    #button {
+        width: 100%;
+    }
 }
