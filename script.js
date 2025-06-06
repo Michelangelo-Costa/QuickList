@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(() => {
             alertFooter.classList.add('hidden');
-        }, 3000);
+        }, 5000);
     }
 
     function addItem() {
